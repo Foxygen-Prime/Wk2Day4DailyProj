@@ -62,7 +62,7 @@ let film = {
 */
 function addBoxOffice() {
   // Your answer here:
-  film.boxoffice: 269061;
+  film.boxoffice = 269061;
   return film;
 }
 
@@ -71,6 +71,8 @@ function addBoxOffice() {
 */
 function addActor() {
   // Your answer here:
+  film.actors.push ("Yukiko Shimazaki");
+  return film;
 }
 
 /*
