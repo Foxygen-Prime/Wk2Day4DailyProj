@@ -35,8 +35,11 @@ function smallNums() {
 3. Add 12, 99, and 101 (in that order) to the end of the "numbers" array. Return the "numbers" array.
 */
 function addNums() {
+  numbers.push (12,99,101)
   // Your answer here:
+  return numbers;
 }
+
 
 
 
@@ -59,6 +62,8 @@ let film = {
 */
 function addBoxOffice() {
   // Your answer here:
+  film.boxoffice: 269061;
+  return film;
 }
 
 /*
