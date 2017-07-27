@@ -35,7 +35,7 @@ function smallNums() {
 3. Add 12, 99, and 101 (in that order) to the end of the "numbers" array. Return the "numbers" array.
 */
 function addNums() {
-  numbers.push (12,99,101)
+  numbers.push(12, 99, 101)
   // Your answer here:
   return numbers;
 }
@@ -71,7 +71,7 @@ function addBoxOffice() {
 */
 function addActor() {
   // Your answer here:
-  film.actors.push ("Yukiko Shimazaki");
+  film.actors.push("Yukiko Shimazaki");
   return film;
 }
 
@@ -96,8 +96,8 @@ let letterVals = ["v", "x", "r", "f", "p"];
 function interleave() {
   let vals = [];
   for (let i = 0; i < numberVals.length; i++) {
-  vals.push(letterVals[i] + numberVals[i]);
-}
+    vals.push(letterVals[i] + numberVals[i]);
+  }
   // Your answer here:
   return vals;
 }
@@ -116,10 +116,10 @@ let second = ["think", "stand", "cheese", "break", "numinous", "mouse", "close",
 
 function union() {
   let same = [];
-  for (if i = 0; i < first.length; i++) {
-    if (first[i] = second[i])
-    first.push(first[i]);
-    second.push(second[i]);
+  for (let i = 0; i < first.length; i++) {
+    if (first[i] === second[i]) {
+      same.push(first[i]);
+    }
   }
   // Your answer here:
   return same;
