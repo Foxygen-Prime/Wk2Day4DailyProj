@@ -22,7 +22,13 @@ function getFourthNum(){
 2. Iterate over the "numbers" array. Push any numbers less than 10 onto "smallNums". Return "smallNums".
 */
 function smallNums(){
-    let smallNums = [];
+    let smallNums = numbers[];
+    for (let i = 0; i < numbers.length; i++);
+    if [i] < 10; {
+    smallNums[i] = smallNums += i;
+  }
+    smallNums.push()
+    return smallNums;
     // Your answer here:
 }
 
