@@ -84,10 +84,6 @@ function getLosses() {
 }
 
 
-
-
-
-
 /*
 7. Iterate over "letterVals" and "numberVals". Concatenate the values from the two arrays and store the new values in the "vals" array. Return "vals".
 
@@ -99,7 +95,11 @@ let letterVals = ["v", "x", "r", "f", "p"];
 
 function interleave() {
   let vals = [];
+  for (let i = 0; i < numberVals.length; i++) {
+  vals.push(letterVals[i] + numberVals[i]);
+}
   // Your answer here:
+  return vals;
 }
 
 
@@ -116,5 +116,11 @@ let second = ["think", "stand", "cheese", "break", "numinous", "mouse", "close",
 
 function union() {
   let same = [];
+  for (if i = 0; i < first.length; i++) {
+    if (first[i] = second[i])
+    first.push(first[i]);
+    second.push(second[i]);
+  }
   // Your answer here:
+  return same;
 }
